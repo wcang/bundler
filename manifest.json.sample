@@ -1,0 +1,4 @@
+{
+	"directory" : "test",
+	"execute" : "python test/test.py 123"
+}

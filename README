@@ -1,0 +1,25 @@
+Introduction
+------------
+A simple tool to bundle package into a python script. The python script
+execute command as specified in the manifest file.
+
+bundler.py compresses a directory and manifest file and then embeds them into 
+extract.py. extract.py extracts the embedded tarball and execute the command
+as specified in the manifest file. The manifest file should be named
+manifest.json.
+
+The manifest file contains the following info:
+- [directory]: informs bundler.py which directory to package
+- [execute]: informs extract.py what to execute when tarball is extracted
+
+Refer to manifest.json.sample and test folder to see how bundler is used.
+
+License?
+--------
+Permission is granted to use, modify and redistribute this software. 
+No warranty is provided.
+
+
+Author:
+Ang Way Chuang <wcang@sfc.wide.ad.jp>
+
